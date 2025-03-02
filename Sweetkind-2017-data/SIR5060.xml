@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Donald S. Sweetkind</origin>
+        <origin>Randall T. Hanson</origin>
+        <origin>Andre B. Ritchie</origin>
+        <origin>John W. Hawley</origin>
+        <pubdate>2017</pubdate>
+        <title>Data release of Three-Dimensional Hydrogeologic Framework Model of the Rio Grande Transboundary Region of New Mexico and Texas, USA and Northern Chihuahua, Mexico</title>
+        <geoform>GeoDatabase</geoform>
+        <onlink>https://doi.org/10.5066/F7JM27T6</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Donald S. Sweetkind</origin>
+            <pubdate>2017</pubdate>
+            <title>Three-Dimensional Hydrogeologic Framework Model of the Rio Grande Transboundary Region of New Mexico and Texas, USA, and Northern Chihuahua, Mexico</title>
+            <geoform>online document</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Scientific Investigations Report</sername>
+              <issue>2017-5060</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Denver, CO</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.3133/sir20175060</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This digital dataset represents the three-dimensional hydrogeologic framework for the Rio Grande Transboundary region of New Mexico, Texas, USA, and Northern Chihuahua, Mexico. The data define the elevation, thickness, extent, and character of the principal hydrostratigraphic units of the region, and faults and igneous intrusive dikes that cut these units. The digital data describe the following five hydrostratigraphic units: RC, river channel alluvium; three informal subdivisions of the Santa Fe Group (USF, Upper Santa Fe Group; MSF, Middle Santa Fe Group; LSF, Lower Santa Fe Group); and BSMT, which includes all pre-Santa Fe Group rocks (basement). All units except BSMT (RC, USF, MSF, LSF) are split into two subunits. In each case, the designation 1 (e.g., USF1) indicates the UPPER subunit and the designation 2 (e.g., USF2) indicates the LOWER subunit.
+Most of the three-dimensional hydrogeologic framework data are contained within a single polygon feature class Frmwk_cells, which contains a mesh of polygons that represent model cells that have multiple attributes including X, Y, elevation and thickness of each hydrostratigraphic unit or subunit, and codes that represent sedimentary facies for each hydrostratigraphic subunit. The spatial extent of RC, USF, MSF, and LSF are provided as separate polygon feature classes. Faults and igneous intrusive dikes are provided as separate line features classes.
+This digital dataset was created as part of a U.S. Geological Survey study, done in cooperation with the U.S. Bureau of Reclamation, to be used as the digital hydrogeologic input data for numerical simulation of the groundwater system of the Rio Grande transboundary region of New Mexico, Texas, USA and Northern Chihuahua, Mexico. These data are intended as the digital hydrogeologic input for numerical simulation of the groundwater system. Elevation, thickness, and extent of the hydrostratigraphic units define the geohydrologic layering of the digital framework model. Codes that represent sedimentary facies may be used as a lithologic basis for the distribution of hydraulic properties within each hydrostratigraphic unit. The location of faults and igneous intrusive dikes may be used to define the location of potential horizontal flow barriers in numerical simulation of the groundwater system.</abstract>
+      <purpose>The intended uses of this dataset include, but are not limited to, natural resource modeling, mapping, and visualization applications.</purpose>
+      <supplinf>GEOSPATIAL DATASETS INCLUDED IN THIS GEOSPATIAL DATABASE:
+FEATURE CLASSES
+Faults-fault lines
+Frmwk_cells-geologic framework model polygons
+LSF_extent- Lower Santa Fe Group extent polygon
+MSF_extent- Middle Santa Fe Group extent polygon
+RC_extent- River channel extent polygon
+USF_extent- Upper Santa Fe Group extent polygon
+Volc_dikes-igneous dike lines</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2017</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-107.655</westbc>
+        <eastbc>-106.197</eastbc>
+        <northbc>33.121</northbc>
+        <southbc>31.37</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>elevation</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>Standard thesaurus</themekt>
+        <themekey>geology</themekey>
+        <themekey>hydraulic properties</themekey>
+        <themekey>three-dimensional hydrogeologic framework model</themekey>
+        <themekey>hydrogeology</themekey>
+        <themekey>groundwater system</themekey>
+        <themekey>sedimentary facies</themekey>
+        <themekey>hydrology</themekey>
+        <themekey>model grid</themekey>
+        <themekey>hydrostratigraphy</themekey>
+        <themekey>geologic framework</themekey>
+        <themekey>transboundary</themekey>
+        <themekey>aquifer</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:586c36ede4b0f5ce109fa88f</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>Chihuahua, Mexico</placekey>
+        <placekey>Rio Grande River</placekey>
+        <placekey>Texas</placekey>
+        <placekey>Las Cruces</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>Elephant Butte Reservoir</placekey>
+        <placekey>Caballo Reservoir</placekey>
+        <placekey>El Paso</placekey>
+        <placekey>Cuidad Juarez</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. Acknowledgement of the U.S. Geological Survey and U.S. Bureau of Reclamation would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Donald S. Sweetkind</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>MAILING ADDRESS</addrtype>
+          <address>USGS, MS 980, Box 25046, Denver Federal Center</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(303) 236-1828</cntvoice>
+        <cntemail>dsweetkind@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Compilation of this data set and the associated metadata was done in cooperation with the U.S. Bureau of Reclamation.
+
+Fault location and recency and igneous dike locations are compiled from the following published sources:
+Figuers, S.H., 1987, Structural geology and geophysics of the pipeline complex, northern Franklin Mountains, El Paso, Texas: El Paso, Tex., University of Texas, Ph.D. dissertation, 279 p. [Also available at http://digitalcommons.utep.edu/dissertations/AAI8729914/.]
+Hawley, J.W., and Kennedy, J.F., 2004, Creation of a digital hydrogeologic framework model of the Mesilla basin and southern Jornada del Muerto basin: New Mexico State University, New Mexico Water Resources Research Institute Technical Completion Report 332, 105 p., with 2005 Addendum, accessed April 17, 2017, at https://nmwrri.nmsu.edu/tr332/.
+Hawley, J.W., Kennedy, J.F., Granados-Olivas, Alfredo, and Ortiz, M.A., 2009, Hydrogeologic framework of the binational western Hueco Bolson–Paso del Norte area, Texas, New Mexico, and Chihuahua—Overview and progress report on digital-model development: New Mexico Water Resources Research Institute Technical Completion Report 349, 45 p., 2 plates, accessed December 20, 2016, at https://nmwrri.nmsu.edu/tr349/.
+Imana, E.C., 2002, The Mesilla bolson—An integrated geophysical, hydrological, and structural analysis using free-air anomalies: El Paso, Texas, University of Texas, Ph.D. dissertation, 170 p.
+Khatun, Salma, 2003, A precision gravity study of the southern Mesilla bolson, west Texas: El Paso, Texas, University of Texas, M.S. thesis, 75 p. [Also available at http://digitalcommons.utep.edu/dissertations/AAIEP10570.]
+Khatun, Salma, Doser, D.I., Imana, E.C., and Keller, G.R., 2007, Locating faults in the southern Mesilla bolson, west Texas and southern New Mexico, using 3-D modeling of precision gravity data: Journal of Environmental &amp; Engineering Geophysics, v. 12, no. 2, p. 149–161. [Also available at https://doi.org/10.2113/JEEG12.2.149.]
+Servicio Geologico Mexicano, 2011, Hydrogeological activities in the Conejos-Medanos/Mesilla Basin Aquifer, Chihuahua: Servicio Geologico Mexicano Report, Phase I, 111 p.
+U.S. Geological Survey and New Mexico Bureau of Mines and Mineral Resources, 2006, Quaternary fault and fold database for the United States: U.S. Geological Survey, accessed June 12, 2015, http://earthquake.usgs.gov/hazards/qfaults/.</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted. Verification was done by interactive on-screen review.</attraccr>
+    </attracc>
+    <logic>Map elements and Topology were checked if needed.</logic>
+    <complete>Dataset is considered complete for the information presented.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the dataset has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the dataset has not been conducted.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Feature class Frmwk_cells-A GIS was used to develop a polygon layer representing the model grid that was 328 columns by 912 rows. Model cells (polygons) were attributed with information that defines the geometry, extent, and character of aquifers of the model grid area.</procdesc>
+        <procdate>2016</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Feature class Faults-A GIS was used to georectify page-sized images from various published sources showing fault location, and digitize, merge and edit vector line datasets.</procdesc>
+        <procdate>2016</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Feature class faults-A GIS was used to create attributes consistent with published sources for fault names and recency.</procdesc>
+        <procdate>2016</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Feature class Volc_dikes-A GIS was used to create and edit a vector line dataset based on a published source and expert interpretations.</procdesc>
+        <procdate>2016</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Feature classes LSF_extent, MSF_extent, USF_extent, and RC_extent-To create each polygon feature class, a GIS was used to extract from the feature class Frmwk cells those cells that are within the extent of each hydrostratigraphic unit. Cells within the extent have a defined zone code value other than null, 0, or 999. Cells were merged into a single multipart polygon and exported as a one of the four listed feature classes.</procdesc>
+        <procdate>2016</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Feature class Frmwk_cells-A GIS was used to calculate thickness of each hydrostratigraphic unit and subunit based on elevations of top and base of each unit or subunit.</procdesc>
+        <procdate>2016</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Feature class Frmwk_cells-A GIS was used to error-check the framework cells for cases where:
+1) upper hydrostratigraphic unit layer elevations are less than lower layer elevations,
+2) upper hydrostratigraphic unit layer elevation are equal to lower layer elevation,
+3) hydrostratigraphic units are indicated as present in the framework (unit has a defined thickness) but were coded as not present in the lithology zonecodes
+3) hydrostratigraphic units are indicated as absent in the framework (unit has a zero thickness) but were coded as present in the lithology zonecodes
+Revisions were made to the geospatial database as needed.</procdesc>
+        <procdate>2016</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>13</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-105.0000</longcm>
+              <latprjo>0.00</latprjo>
+              <feast>500000.0000</feast>
+              <fnorth>0.0000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>GEOSPATIAL DATASETS INCLUDED IN THIS GEOSPATIAL DATABASE:
+FEATURE CLASSES
+Faults-fault lines
+Frmwk_cells-geologic framework model polygons
+LSF_extent- Lower Santa Fe Group extent polygon
+MSF_extent- Middle Santa Fe Group extent polygon
+RC_extent- River channel extent polygon
+USF_extent- Upper Santa Fe Group extent polygon
+Volc_dikes-igneous dike lines
+
+Faults
+Explanation of fields:
+Flt_name - Fault name, compiled from annotations on source maps and cross sections, combined with names listed in the Quaternary fault and fold database of the United States. Unnamed faults have a NULL value in this field.
+Recency - Fault recency (age) describes if fault completely cuts the upper, middle, lower Santa Fe Group or the pre-Santa Fe Group rocks. The recency attribute lists the youngest unit that the fault cuts completely. Fault recency was determined through comparison with the USGS Quaternary fault database and through inspection of the structural offset of each fault shown on cross sections in the cited source reports.
+Recency attributed as one of the following text
+USF, Upper Santa Fe Group rocks
+MSF, Middle Santa Fe Group rocks
+LSF, Lower Santa Fe Group rocks
+preSF, pre-Sante Fe Group rocks
+
+Frmwk_cells
+Explanation of fields:
+ROW-integer value of row in which cell resides, range 1-912
+COL- integer value of column in which cell resides, range 1-328
+NUMCELL-integer value that is unique identifier of each cell, range 1-299136
+POINT_X- Easting, in meters, of cell centroid. Projection: NAD_1983_UTM_Zone_13N
+POINT_Y- Northing, in meters, of cell centroid. Projection: NAD_1983_UTM_Zone_13N
+RC1_zonecode- Zonation of the upper subdivision of river channel recent alluvium (lower subdivision, RC2, was not zoned). Zonecodes explained below.
+USF1_zonecode- Zonation of the upper subdivision of Upper Santa Fe Group rocks. Zonecodes explained below.
+USF2_zonecode- Zonation of the lower subdivision of Upper Santa Fe Group rocks. Zonecodes explained below.
+MSF1_zonecode- Zonation of the upper subdivision of Middle Santa Fe Group rocks. Zonecodes explained below.
+MSF2_zonecode- Zonation of the lower subdivision of Middle Santa Fe Group rocks. Zonecodes explained below.
+LSF1_zonecode- Zonation of the upper subdivision of Lower Santa Fe Group rocks. Zonecodes explained below.
+LSF2_zonecode- Zonation of the lower subdivision of Lower Santa Fe Group rocks. Zonecodes explained below.
+BSMT_zonecode- Zonation of the pre-Santa Fe Group (basement) rocks. Zonecodes explained below.
+ElevFTDEMR- Land surface elevation, in feet, modified from a 10-m digital elevation model (DEM).
+Top_RC_ft- Elevation, in feet, of top of river channel recent alluvium
+Top_USF_ft- Elevation, in feet, of top of Upper Santa Fe Group rocks (includes all post-Santa Fe Group sediments)
+Top_MSF_ft-Elevation, in feet, of top of Middle Santa Fe Group rocks
+Top_LSF_ft- Elevation, in feet, of top of Lower Santa Fe Group rocks
+Top_BSMT_ft- Elevation, in feet, of top of pre-Santa Fe Group rocks
+Base_RC_ft- Elevation, in feet, of base of river channel recent alluvium
+Base_BSMT_ft- Elevation, in feet, of the arbitrary base of pre-Santa Fe Group rocks (500-foot thickness of basement rocks)
+THK_RC_ft- Thickness, in feet, of river channel recent alluvium
+THK_USF_ft- Thickness, in feet, of Upper Santa Fe Group rocks (includes all post-Santa Fe Group sediments)
+THK_MSF_ft- Thickness, in feet, of Middle Santa Fe Group rocks
+THK_LSF_ft-Thickness, in feet, of Lower Santa Fe Group rocks
+THK_BSMT_ft- Thickness, in feet, of pre-Santa Fe Group rocks
+Top_RC1_ft- Elevation, in feet, of top of the upper subdivision of river channel recent alluvium
+Top_RC2_ft- Elevation, in feet, of top of the lower subdivision of river channel recent alluvium
+Top_USF1_ft- Elevation, in feet, of top of the upper subdivision of Upper Santa Fe Group rocks. Elevation is equal to that of top of Upper Santa Fe Group rocks.
+Top_USF2_ft- Elevation, in feet, of top of the lower subdivision of Upper Santa Fe Group rocks.
+Top_MSF1_ft- Elevation, in feet, of top of the upper subdivision of Middle Santa Fe Group rocks. Elevation is equal to that of top of Middle Santa Fe Group rocks.
+Top_MSF2_ft-Elevation, in feet, of top of the lower subdivision of Middle Santa Fe Group rocks.
+Top_LSF1_ft- Elevation, in feet, of top of the upper subdivision of Lower Santa Fe Group rocks. Elevation is equal to that of top of Lower Santa Fe Group rocks.
+Top_LSF2_ft- Elevation, in feet, of top of the lower subdivision of Lower Santa Fe Group rocks.
+
+A NULL value of -99999 is used in an elevation field if unit is absent due to erosion at land surface, or for cells at the edge of the model domain where geologic elevations were not interpreted.
+
+Explanation of Zonecodes for RC, USF, MSF, and LSF
+ZoneCode	Lithofacies; dominant depositional setting	Lithology, sediment texture
+10	River-valley, fluvial -- basal channel deposits		Pebble to cobble gravel and sand
+15	Basin-floor fluvial plain			Sand and pebble gravel, lenses of silty clay
+20	River-valley, fluvial -- Braided plain, channel deposits	Sand and pebbly sand
+25	Basin-floor fluvial, locally eolian		Sand; lenses of pebble sand, and silty clay
+30	River-valley, fluvial -- Overbank, meander-belt, oxbow deposits	Silty clay, clay, and sand
+35	Basin-floor, fluvial-overbank fluvial-deltaic and playa-lake; eolian	Interbedded sand and silty clay; lenses of pebbly sand
+40	Eolian, basin-floor alluvial	Sand and sandstone; lenses of silty sand to clay
+50	Distal to medial piedmont-slope, alluvial fan	Gravel, sand, silt, and clay; common loamy (sand-silt-clay)
+51	River-valley, fluvial -- terrace deposits, arroyo channels, reworked distal alluvial fan	Sand, gravel, silt, and clay
+55	Distal to medial piedmont-slope, alluvial fan	Partly indurated gravel, sand, silt, and clay; common loamy (sand-silt-clay)
+60	Proximal to medial piedmont-slope, alluvial-fan	Coarse gravelly, loamy sand and sandy loam; lenses of sand and cobble to boulder gravel
+65	Proximal to medial piedmont-slope, alluvial-fan	Partly indurated coarse gravelly, loamy sand and sandy loam; lenses of sand and cobble to boulder gravel
+90	Basin-floor --alluvial flat, playa, lake, and fluvial-lacustrine; distal-piedmont alluvial	Silty clay interbedded with sand, silty sand and clay
+100	Basin-floor --alluvial flat, playa, lake, with evaporite processes	Silty clay interbedded with sand, silty sand and clay with gypsiferous and alkali-impregnated zones
+0	This code is used for units that have been eroded at the upper surface of the model and are absent, with a normal stratigraphic sequence of older units present
+999	This code is used where a unit is absent within the stratigraphic stack and was given an arbitrary thickness of 5 feet. Zonecode is arbitrary; no lithologic significance is implied.
+
+LSF_extent
+No user-defined fields
+
+MSF_extent
+No user-defined fields
+
+RC_extent
+No user-defined fields
+
+USF_extent
+No user-defined fields
+
+Volc_dikes
+No user-defined fields</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225-0046</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Any use of trade, product or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Geological Survey.
+Although this information product, for the most part, is in the public domain, it also contains copyrighted materials as noted in the text. Permission to reproduce copyrighted items for other than personal use must be secured from the copyright owner.
+This database has been approved for release and publication by the Director of the USGS. Although this database has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, it is released on condition that neither the USGS nor the United States Government may be held liable for any damages resulting from its authorized or unauthorized use.
+Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>WinZipped file geodatabase and WinZipped ESRI shapefiles</formname>
+          <formvern>10.5; 2017</formvern>
+          <formspec>ESRI 10.5 file geodatabase or ESRI shapefile. Note some information such as field names and relationship classes may be altered or removed from the source data during conversion to ESRI shapefile format.</formspec>
+          <formcont>Spatial and attribute information</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/F7JM27T6</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20200820</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Donald Sweetkind</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>PO Box 25046, Denver Federal Center, Mailstop 980</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-303-236-1828</cntvoice>
+        <cntemail>dsweetkind@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>none</metac>
+    <metuc>none</metuc>
+  </metainfo>
+</metadata>
