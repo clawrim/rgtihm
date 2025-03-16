@@ -1,8 +1,8 @@
 # MODFLOW 6 Version of RGTIHM
 
-This repository contains the MODFLOW 6 conversion of the Rio Grande Transboundary Integrated Hydrologic Model (RGTIHM). The original model was developed using MODFLOW-One Water Hydrologic Model (MF-OWHM) by the USGS.
+This repository contains the MODFLOW 6 conversion of the [Rio Grande Transboundary Integrated Hydrologic Model](https://www.usgs.gov/centers/new-mexico-water-science-center/science/rio-grande-transboundary-integrated-hydrologic) (RGTIHM). The original model was developed using MODFLOW-One Water Hydrologic Model (MF-OWHM) by the USGS.
 
-USGS Study: https://www.usgs.gov/centers/new-mexico-water-science-center/science/rio-grande-transboundary-integrated-hydrologic
+USGS Study: 
 
 ## Step 1: Set Up the Project Directory
 
@@ -27,9 +27,7 @@ git clone https://github.com/mabdazzam/rgtihm.git
 
 ## Step 2: Download and Extract the MF-OWHM Model
 
-Go to the following ScienceBase page and download all files:
-
-https://www.sciencebase.gov/catalog/item/62a12334d34ec53d27701c32
+Go to the ScienceBase-Catalog page and download all the files for [RGTIHM MF-OWHM Model](https://www.sciencebase.gov/catalog/item/62a12334d34ec53d27701c32):
 
 The downloaded files include:
 
@@ -62,7 +60,7 @@ for i in *.zip; do unzip "$i"; done
 Navigate to the MF6 directory and launch Jupyter Lab:
 
 ```sh
-cd ~/projects/nmhydro/MF6
+cd ..
 jupyter lab
 ```
 
@@ -214,12 +212,5 @@ mpiexec -np 4 ~/usr/local/src/mf6/bin/mf6 -p
 ```
 
 Replace `4` with the number of submodels.
-
-## Troubleshooting: Indexing Errors in WEL and GHB
-
-Errors in WEL and GHB may occur due to indexing differences between MF-OWHM and MODFLOW 6:
-
-- MODFLOW 6 indexing starts from `xorigin` and `yorigin`.
-- MF-OWHM indexing starts from `xul` and `yul`.
 
 This difference can cause wells and GHB points to fall outside the active model area. Adjusting the indexing will resolve the issue.
