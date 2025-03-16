@@ -3,3 +3,6 @@ Sweetkind-2017-data/3DHFM_shapefiles/Frmwk_cells.*
 shps/*/
 shps/*.gpkg
 backup_notebook.ipynb
+model/
+submodels/
+notes.log
