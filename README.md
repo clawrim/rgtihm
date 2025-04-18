@@ -214,3 +214,8 @@ mpiexec -np 4 ~/usr/local/src/mf6/bin/mf6 -p
 Replace `4` with the number of submodels.
 
 This difference can cause wells and GHB points to fall outside the active model area. Adjusting the indexing will resolve the issue.
+
+## Timings
+
+Writing Simulation = 1234.76s (20.5 mins)
+Running the whole noteboook = 2645s (44 mins)
