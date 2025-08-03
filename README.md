@@ -105,10 +105,10 @@ Replace `4` with the number of submodels.
 
 Errors in WEL and GHB may occur due to indexing differences between MF-OWHM and MODFLOW 6:
 
-- MODFLOW 6 indexing starts from `xorigin` and `yorigin`.
+- MODFLOW 6 indexing starts from `xorigin (xll)` and `yorigin (yll)`.
 - MF-OWHM indexing starts from `xul` and `yul`.
 
-This difference can cause wells and GHB points to fall outside the active model area. Adjusting the indexing will resolve the issue.# MODFLOW 6 Version of RGTIHM
+This difference can cause wells and GHB points to fall outside the active model area. Adjusting the indexing will resolve the issue.
 
 This repository contains the MODFLOW 6 conversion of the Rio Grande Transboundary Integrated Hydrologic Model (RGTIHM). The original model was developed using MODFLOW-One Water Hydrologic Model (MF-OWHM) by the USGS.
 
@@ -217,5 +217,7 @@ This difference can cause wells and GHB points to fall outside the active model 
 
 ## Timings
 
-Writing Simulation = 1234.76s (20.5 mins)
-Running the whole noteboook = 2645s (44 mins)
+- Writing Simulation (last cell before visualization) = 1234.76s (20.5 mins)
+- Running the whole noteboook (create all packages and write sim)= 2645s (44 mins)
+
+(These timings are now outdated, will be updated soon)
